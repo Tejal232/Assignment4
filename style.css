@@ -1,0 +1,103 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+     background-color: #330163; 
+    color: #e0e0e0;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+.poster-container {
+    background-image: url(https://img.freepik.com/free-photo/3d-music-related-scene_23-2151125037.jpg?semt=ais_hybrid&w=740); background-size: cover;
+    max-width: 600px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 15px;
+    border: 4px solid;
+    justify-content: center;
+}
+.poster-header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5em; 
+    color: #11e0e7;; 
+    margin-bottom: 10px;
+    text-shadow: 0 0 15px rgb(241, 105, 105); 
+}
+
+.poster-header .tagline {
+    font-size: 1.2em;
+    color: #b0b0b0;
+    margin-bottom: 30px;
+}
+
+.poster-details {
+    margin-bottom: 30px;
+}
+
+.date-location p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+.lineup h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11e0e7;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.lineup ul {
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    font-size: 1.1em;
+    font-weight: 3em;
+    color: #c0c0c0;
+}
+
+.lineup ul li {
+    margin-bottom: 8px;
+}
+
+.tickets {
+    margin-top: 30px;
+}
+
+.tickets p {
+    font-size: 1.3em;
+    color: #b7f820; 
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    background-color: rgba(240, 224, 11, 0.8);
+    color: #1a0033; 
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    margin-top: 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 255, 242, 0.767); 
+}
+
+.btn:hover {
+    background-color: rgba(240, 224, 11, 0.8);
+    transform: scale(1.05);
+    box-shadow:  20px rgba(240, 224, 11, 0.8);
+}
+
+.poster-footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #808080;
+}
+
+.poster-footer p {
+    margin: 5px 0;
+}
